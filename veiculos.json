@@ -25,5 +25,23 @@
     "modelo": "Civic",
     "marca": "Honda",
     "ano": 2020
+  },
+  {
+    "id": 4,
+    "placa": "ABC-1234",
+    "chassi": "9BWZZZ377VT004251",
+    "renavam": "12345678900",
+    "modelo": "Golf",
+    "marca": "Volkswagen",
+    "ano": "2018"
+  },
+  {
+    "id": 5,
+    "placa": "XYZ-9876",
+    "chassi": "1HGCM82633A123456",
+    "renavam": "98765432100",
+    "modelo": "Civic",
+    "marca": "Honda",
+    "ano": "2020"
   }
 ]

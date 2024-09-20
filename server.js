@@ -19,8 +19,10 @@ const veiculosExemplos = [
   { id: 3, placa: 'GHI-9012', chassi: 'ABC98765', renavam: '456789123', modelo: 'Civic', marca: 'Honda', ano: 2020 }
 ];
 
-// Criar o arquivo JSON com os exemplos
-fs.writeFileSync(filePath, JSON.stringify(veiculosExemplos, null, 2));
+// Verifica se o arquivo JSON existe, caso não exista, cria com exemplos
+if (!fs.existsSync(filePath)) {
+  fs.writeFileSync(filePath, JSON.stringify(veiculosExemplos, null, 2));
+}
 
 // Função para ler o arquivo JSON
 const readVeiculosFromFile = () => {
@@ -42,10 +44,13 @@ app.get('/veiculos', (req, res) => {
 // Rota para adicionar um novo veículo
 app.post('/veiculos', (req, res) => {
   const veiculos = readVeiculosFromFile();
-  const novoVeiculo = { id: veiculos.length + 1, ...req.body };
+  const novoVeiculo = { id: veiculos.length ? veiculos[veiculos.length - 1].id + 1 : 1, ...req.body }; // Garante ID único
   veiculos.push(novoVeiculo);
   writeVeiculosToFile(veiculos);
-  res.status(201).json(novoVeiculo);
+  res.status(201).json({
+    message: 'Veículo cadastrado com sucesso',
+    veiculoRecebido: novoVeiculo
+  });
 });
 
 // Rota para atualizar um veículo existente
