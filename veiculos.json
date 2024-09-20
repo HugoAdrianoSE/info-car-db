@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "placa": "ABC-1234",
+    "chassi": "XPT12345",
+    "renavam": "987654321",
+    "modelo": "Civic",
+    "marca": "Honda",
+    "ano": 2019
+  },
+  {
+    "id": 2,
+    "placa": "DEF-5678",
+    "chassi": "ZXT98765",
+    "renavam": "123456789",
+    "modelo": "Fusca",
+    "marca": "Volkswagen",
+    "ano": 1974
+  },
+  {
+    "id": 3,
+    "placa": "GHI-9012",
+    "chassi": "ABC98765",
+    "renavam": "456789123",
+    "modelo": "Civic",
+    "marca": "Honda",
+    "ano": 2020
+  }
+]
