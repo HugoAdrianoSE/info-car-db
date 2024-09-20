@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "placa": "GHI-9012",
+    "placa": "GHI-9011",
     "chassi": "ABC98765",
     "renavam": "456789123",
     "modelo": "Civic",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "placa": "ABC-1234",
+    "placa": "ABC-8558",
     "chassi": "9BWZZZ377VT004251",
     "renavam": "12345678900",
     "modelo": "Golf",
@@ -37,11 +37,29 @@
   },
   {
     "id": 5,
-    "placa": "XYZ-9876",
+    "placa": "MHK-1800",
     "chassi": "1HGCM82633A123456",
     "renavam": "98765432100",
     "modelo": "Civic",
     "marca": "Honda",
+    "ano": "2020"
+  },
+  {
+    "id": 6,
+    "placa": "AGK-1255",
+    "chassi": "1HGBH41JXMN109185",
+    "renavam": "123456789",
+    "modelo": "Toyota Camry",
+    "marca": "Toyota",
+    "ano": "2011"
+  },
+  {
+    "id": 7,
+    "placa": "TDZ-4321",
+    "chassi": "1HGBH41JXMN109186",
+    "renavam": "09876543211",
+    "modelo": "Corolla",
+    "marca": "Toyota",
     "ano": "2020"
   }
 ]
