@@ -3,7 +3,7 @@
     "id": 7,
     "placa": "TDZ4321",
     "chassi": "1HGBH41JXMN109186",
-    "renavam": "09876543211",
+    "renavam": "99876543211",
     "modelo": "Corolla",
     "marca": "Toyota",
     "ano": "2020"
@@ -18,21 +18,57 @@
     "ano": "2010"
   },
   {
-    "id": 10,
-    "placa": "XYZ2E45",
-    "chassi": "8A123456789012345",
-    "renavam": "98765432100",
-    "modelo": "Corolla",
-    "marca": "Toyota",
-    "ano": "2018"
-  },
-  {
     "id": 11,
     "placa": "JKL8F79",
     "chassi": "1C4RJFBG9LC123456",
     "renavam": "11223344556",
     "modelo": "Compass",
     "marca": "Jeep",
+    "ano": "2019"
+  },
+  {
+    "id": 12,
+    "placa": "AWK2203",
+    "chassi": "WBA3B3C53EF123456",
+    "renavam": "82587724820",
+    "modelo": "320i",
+    "marca": "BMW",
+    "ano": "2024"
+  },
+  {
+    "id": 14,
+    "placa": "XYZ5678",
+    "chassi": "1HGCM86233A123789",
+    "renavam": "28926216320",
+    "modelo": "Civic",
+    "marca": "Honda",
+    "ano": "2020"
+  },
+  {
+    "id": 15,
+    "placa": "QWE9876",
+    "chassi": "9BD17124R31456789",
+    "renavam": "29652620856",
+    "modelo": "Argo",
+    "marca": "Fiat",
+    "ano": "2022"
+  },
+  {
+    "id": 16,
+    "placa": "JKP5435",
+    "chassi": "1FADP3F20EL567890",
+    "renavam": "66554433221",
+    "modelo": "Focus",
+    "marca": "Ford",
+    "ano": "2015"
+  },
+  {
+    "id": 18,
+    "placa": "GHI9012",
+    "chassi": "2HGFG3B58KH123456",
+    "renavam": "23456789012",
+    "modelo": "Civic",
+    "marca": "Honda",
     "ano": "2019"
   }
 ]
