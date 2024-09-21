@@ -34,7 +34,7 @@ app.get('/veiculos', (req, res) => {
   const veiculos = readVeiculosFromFile();
   res.status(200).json({
     message: 'Veículos listados com sucesso',
-    veiculos
+    veiculos: veiculos
   });
 });
 
