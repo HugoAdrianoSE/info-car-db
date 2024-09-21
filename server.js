@@ -77,7 +77,8 @@ app.delete('/veiculos/:id', (req, res) => {
     veiculos.splice(veiculoIndex, 1);
     writeVeiculosToFile(veiculos);
     res.status(200).json({
-      message: 'Veículo deletado com sucesso'
+      message: 'Veículo deletado com sucesso',
+      veiculos
     });
   } else {
     res.status(404).json({
